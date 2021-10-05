@@ -1,0 +1,17 @@
+.duongdan {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  padding: 3px 0px;
+}
+.duongdan .fas {
+  margin-right: 10px;
+}
+.duongdan .fas::after {
+  content: "\00bb";
+  margin-left: 10px;
+}
+.duongdan p {
+  font-size: 13pt;
+}

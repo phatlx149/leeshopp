@@ -1,0 +1,123 @@
+.login {
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+.lienhe {
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.check-box {
+  display: flex;
+}
+.check-box input {
+  height: 15px;
+  width: 15px;
+  margin-right: 4px;
+}
+.check-box .remember {
+  color: #333;
+}
+.button-submit {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+.button-submit button {
+  background: #1da1f2;
+  color: #fff;
+  border: none;
+  outline: none;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+.button-submit button:hover {
+  opacity: 0.8;
+}
+/* CSS SOCIAL */
+.mxh {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.mxh .mxh1 {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #3b5998;
+  margin-bottom: 10px;
+}
+.mxh .mxh1:nth-child(2) {
+  background-color: #ea4335;
+}
+.mxh .mxh1:nth-child(2):hover {
+  background-color: #ec5a4c;
+}
+.mxh .mxh1:last-child {
+  background-color: #1da1f2;
+  margin-bottom: 40px;
+}
+.mxh .mxh1:last-child:hover {
+  background-color: #20aaff;
+}
+.mxh .mxh1:nth-child(2) .fab {
+  padding-right: 10px;
+}
+.mxh .mxh1:last-child .fab {
+  padding-right: 10px;
+}
+.mxh1 .fab {
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-right: 1px solid #dedede;
+}
+
+.mxh1 a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 550;
+}
+.mxh1 .mang-xh {
+  font-size: 1rem;
+  padding: 0 15px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+.mxh1:hover {
+  background-color: #4b6fbd;
+}
+/* CSS form */
+.form-login {
+  margin: 0 auto;
+}
+.form-login .form-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.form-group input {
+  height: 45px;
+  width: 300px;
+}
+input {
+  border: 1px solid lightpink;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+}
+.form-group .button-submit {
+}
+.button-submit button {
+  height: 35px;
+  padding: 0px 15px;
+  background-color: var(--pink-color);
+  margin-bottom: 15px;
+}

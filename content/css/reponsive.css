@@ -1,0 +1,209 @@
+@media screen and (max-width: 46.1875em) {
+  /* CSS Headder */
+  .header {
+    line-height: 20px;
+    padding: 0px 15px;
+  }
+  .header .box-lienhe {
+    flex-direction: column;
+  }
+  .box-lienhe .thongtin {
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .thongtin .fas {
+    font-size: 10pt;
+    width: 7%;
+  }
+  .thongtin a {
+    font-size: 9pt;
+  }
+  .header .box_login-reg {
+    padding: 0;
+  }
+  .box-login .fas {
+    font-size: 10pt;
+  }
+  .box-login a {
+    font-size: 9pt;
+  }
+  .box-login a:nth-last-child(2)::after {
+    content: "/";
+    margin: 0;
+  }
+  /* End CSS Header */
+  /* CSS slide show */
+  .navigation {
+    left: 70%;
+  }
+  .navigation .bar {
+    width: 5%;
+    height: 10px;
+    border: 1px solid #fff;
+  }
+  /* End CSS slideshow */
+  /* CSS Nav */
+  .nav_bars-btn {
+    display: block;
+    width: 1%;
+  }
+  .nav {
+    justify-content: space-evenly;
+    padding: 2px 0px;
+  }
+  .nav .menu {
+    display: none;
+  }
+  .nav .urlHinh {
+    width: 30%;
+  }
+  .urlHinh .logo {
+    margin-left: 20px;
+  }
+  .logo img {
+    vertical-align: middle;
+  }
+  .nav .form-timkiem {
+    width: 26%;
+  }
+  .form-timkiem input {
+    width: 90px;
+    height: 20px;
+    margin-top: 3px;
+  }
+  .form-timkiem input::placeholder {
+    font-size: 8pt;
+  }
+  .form-timkiem .button-moblie {
+    display: block;
+    font-size: 8pt;
+    height: 23px;
+    border-radius: 15px;
+  }
+  .form-timkiem button {
+    display: none;
+  }
+  /* End CSS Nav */
+  /* CSS slide show */
+  .list-slide {
+    width: 100%;
+    overflow: hidden;
+  }
+  .slide-show {
+    display: flex;
+    width: 500%;
+  }
+  /* End Slide show */
+  /* CSS main */
+  .main {
+    padding: 0px 18px;
+  }
+  /* CSS text TOP 10 SẢN PHẨM */
+  .text-topsp h2 {
+    font-size: 10pt;
+    letter-spacing: 1px;
+  }
+  /* End TOP 10 SẢN PHẨM */
+  /* CSS LIST-ITEM */
+  .list-item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .list-item .box-sp {
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+    border: 1px solid #dedede;
+  }
+  .box-sp .img {
+    width: 100%;
+    text-align: center;
+  }
+  .box-sp .text_name-item {
+    margin: 0;
+    height: 30px;
+  }
+  .text_name-item p {
+    font-size: 8pt;
+  }
+  .box-sp .text-price {
+    margin-top: 7px;
+    font-size: 8pt;
+    justify-content: center;
+  }
+  /* End CSS Main */
+  /* CSS footer */
+  .footer {
+    padding: 2px 5px;
+  }
+  .footer .img-footer {
+    display: none;
+  }
+  .footer .baohanh-sanpham {
+    margin-bottom: 5px;
+  }
+  .baohanh-sanpham .box-baohanh {
+    width: 49%;
+  }
+  .baohanh-sanpham .box-baohanh:last-child {
+    justify-content: flex-end;
+  }
+  .baohanh-sanpham .box-baohanh:nth-last-child(3) {
+    justify-content: flex-end;
+  }
+  .box-baohanh .text-baohanh {
+    font-size: 7pt;
+  }
+  .img-baohanh .fas,
+  .fa {
+    font-size: 8pt;
+  }
+  .footer .contact {
+    flex-direction: column;
+  }
+  .contact .box-contact {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+  }
+  .box-contact .box {
+  }
+  .box .fas {
+    font-size: 8pt;
+  }
+  .box h3 {
+    font-size: 10pt;
+  }
+  .box p {
+    font-size: 8pt;
+  }
+  .box h4 {
+    font-size: 9pt;
+  }
+  .box small {
+    font-size: 8pt;
+  }
+  .contact .box-map {
+    width: 100%;
+  }
+  .box-map iframe {
+    width: 100%;
+  }
+  /* CSS thong tin khach hang */
+  .container1 h1 {
+    font-size: 15pt;
+    text-align: center;
+  }
+  .container1 .form-group label {
+    font-size: 10pt;
+    width: 100%;
+  }
+  form .form-group {
+    flex-direction: column;
+  }
+  .container1 .form-group input {
+    width: 100%;
+  }
+}

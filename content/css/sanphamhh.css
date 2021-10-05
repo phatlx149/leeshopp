@@ -1,0 +1,94 @@
+.container1 {
+  padding: 30px 0;
+}
+.container1 h1 {
+  font-weight: normal;
+  background-color: var(--pink-color);
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.container1 .form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+
+.form .form-group {
+  display: flex;
+  flex-direction: column;
+  width: 33.3%;
+  justify-content: space-between;
+}
+.form-group .trangthai {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid lightpink;
+  width: 300px;
+}
+.text2 {
+  width: 150px;
+}
+.form-group input[type="radio"] {
+  width: 15px;
+  margin: 0 10px;
+}
+
+.form .form-group span {
+  text-align: center;
+  width: 200px;
+}
+.form .form-group1 {
+  text-align: center;
+  width: 100%;
+}
+.form-group1 input {
+  margin: 0 15px;
+  width: 200px;
+}
+
+/* CSS table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table tr {
+  padding: 15px;
+}
+table td {
+  overflow: hidden;
+  padding: 10px 0;
+}
+table .table {
+  width: 100px;
+  height: 150px;
+}
+
+table td .dieuchinh {
+  font-size: 10pt;
+  border: none;
+  padding: 5px;
+  width: 65px;
+}
+/* CSS select chọn thể loại */
+.form-group select {
+  width: 300px;
+  height: 35px;
+  outline: none;
+}
+.form-group select option {
+  height: 30px;
+}
+/* CSS mô tả sản phẩm*/
+.form .form-group textarea {
+  border: 1px solid lightpink;
+  outline: none;
+  padding: 10px;
+  font-size: 11pt;
+  font-family: "Poppins", sans-serif;
+  width: 50%;
+}
