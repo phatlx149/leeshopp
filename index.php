@@ -1,2 +1,2 @@
-<?php 
-header("location:./trangchinh/index.php");
+<?php
+header("location:./trangchinh/");
